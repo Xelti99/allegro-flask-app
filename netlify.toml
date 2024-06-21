@@ -1,8 +1,3 @@
 [build]
-  command = "pip install -r requirements.txt && gunicorn app:app"
+  command = "./install.sh && gunicorn app:app"
   publish = "."
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
