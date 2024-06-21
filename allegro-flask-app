@@ -1,0 +1,6 @@
+allegro-flask-app/
+├── app.py
+├── requirements.txt
+├── runtime.txt
+├── Procfile
+└── netlify.toml
